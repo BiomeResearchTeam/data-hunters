@@ -1,7 +1,7 @@
 ---
-title: 'Chapter 0: Introduction to the Course'
+title: 'Chapter 0: PYTHON - INTRODUCTION'
 description:
-  "Is this course worth your time? Let's find out!"
+  "Partiamo dalle basi"
 prev: null
 next: /chapter1
 type: chapter
@@ -10,67 +10,9 @@ id: 0
 
 <exercise id="1" title="Introduction">
 
-Hello and welcome!
+Ciao Data Hunter!
 
-My name is Ruslan and I feel passionate about Neuroscience. During my experience in this field, I have noticed the lack of programming/computer science knowledge among (young) scientists. Given my background in Data Science and belief in the "open source knowledge", I decided to create a course to introduce other people to Python programming. Basic programming knowledge allows working with data in a more convenient way (there is a whole new world beyond Excel), automating repeated tasks, or making custom visualizations. And programming is just fun.
-
-Even though this course has a fancy name, it is not that different from any introduction Python course you can find online. The only difference is that I tried to create most of the exercises and examples based on neuroscience-related problems (to possibly make it more interesting for neuroscientists). However, you don't need any specific knowledge to take the course since the course is about Python, not the brain.
-
-#### What this course IS about:
-
-- getting familiar with programming basics (loops, functions, etc);
-- working with most commonly used packages (NumPy, Pandas, Seaborn, etc);
-- building custom plots;
-- importing/exporting files in different formats (.json, .csv, .mat, etc);
-- performing statistical analysis in Python.
-
-#### What this course IS NOT about:
-
-- developing web applications using Python;
-- performing (f)MRI or EEG analysis in Python;
-- building artificial neuronal networks.
-
-The course is divided into several chapters for specific topics which makes it easy to choose those you are interested in and skip parts that you already know. All solutions for exercises are already here, so you are free to check your answers. Keep in mind that if your code does exactly what was asked in the task, but the algorithm is different, that doesn't mean that your solution is wrong. It just means that this task (as most of the tasks in the world) has different ways of solving.
-
-</exercise>
-
-<exercise id="2" title="Q&A">
-
-**Q: If I am not a neuroscientist and not planning to work in a life science field, can I benefit from the course?**
-
-A: Definitely! Most exercises are based on neuroscience-related data sets (description of these data sets is provided in the next parts), but you are not required to have a neuroscience background to solve them since they are more about Python programming.
-
-**Q: Is this a supervised course?**
-
-A: Yes and no. There is no "in-person" supervision. However, all exercises include solutions and code checks, so you get an error feedback when something is wrong.
-
-**Q: Will I get a certificate after the completion of the course?**
-
-A: No. But you will get the *knowledge*. Isn't it better?
-
-**Q: Do I need to have Python installed on my machine?**
-
-A: You don't have to install Python for this course since you can use Python code windows on this website (built on [Binder](https://mybinder.org/)). However, you might install Python at some point to start doing your own analysis, otherwise what's the point? I will show the best way on how to install Python in the following part.
-
-**Q: Will this course make me a super proficient computational neuroscientist and increase my popularity in the industry/academia?**
-
-A: Not quite. This course will introduce you to the basics of programming, but later is your own choice if you want to apply this knowledge in your work/research.
-
-**Q: Will this course introduce me to Python programming so later I can apply this knowledge doing more advanced stuff, like Machine Learning?**
-
-A: Exactly! This course will show you the main concepts of programming and the most popular Python packages, so later you can apply your knowledge to deal with more complex stuff, such as models building.
-
-**Q: Will this course be updated and include more advanced topics in the future (e.g., fMRI data processing, calcium imaging data analysis)?**
-
-A: No, mainly for the reasons described in the previous answer.
-
-**Q: I have spotted a typo/error, where do I report it?**
-
-A: Feel free to report an issue on the [GitHub page](https://github.com/rklymentiev/py-for-neuro) or create a pull request.
-
-**Q: I have an idea of relevant exercises/demos/slides, can I contribute?**
-
-A: Definitely yes! Feel free to start a discussion on the [GitHub page](https://github.com/rklymentiev/py-for-neuro) or contact me directly.
+Qui puoi trovare tutte le informazioni necessarie per affrontare le sfide del workshop, oltre a una vasta gamma di altri dettagli e risorse.
 
 </exercise>
 
