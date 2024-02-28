@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 0: PYTHON - INTRODUCTION'
 description:
-  "Partiamo dalle basi"
+  "Partiamo dal principio"
 prev: null
 next: /chapter1
 type: chapter
@@ -14,45 +14,37 @@ Ciao Data Hunter!
 
 Qui puoi trovare tutte le informazioni necessarie per affrontare le sfide del workshop, oltre a una vasta gamma di altri dettagli e risorse.
 
+Ma partiamo dal principio...
+
+<center><img src="imgs/0.1-dinos.png" width="300"></img></center>
+
+JK Python non c'entra nulla, siamo solo fan dei dinosauri
+
 </exercise>
 
-<exercise id="3" title="Data sets used" type="slides">
+<exercise id="2" title="Python download">
 
-<slides source="chapter0_02_data">
-</slides>
+Se vuoi installare Python sul tuo computer, vai sul [sito ufficiale di Python](https://www.python.org/downloads/) nella sezione "Download" e scarica l'ultima versione facendo attenzione a selezionare correttamente il tuo sistema operativo. 
+
+<center><img src="imgs/0.2-python_download.png" width="300"></img></center>
+
+Una volta scaricato l'installer, avvialo e procedi con l'installazione.
+Sì esatto, è proprio così semplice!
+
+⚠️ Attenzione: per partecipare al workshop, **non è necessario** scaricare Python sul proprio computer!
 
 </exercise>
 
-<exercise id="4" title="Python installation">
+<exercise id="3" title="Python launch">
 
-If you don't have Python installed on your computer, but you want to have it installed, I would suggest to check out Anaconda.
+Per attivare Python, apri il terminale e lancia il comando `python`.
+Se l'installazione di Python è stata eseguita con successo, dovresti visualizzare qualcosa simile a questo:
 
-<center><img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Anaconda_Logo.png" width="300"></img></center>
+<center><img src="imgs/0.3-python_attivation.png" width="300"></img></center>
 
-**Anaconda** is a distribution of the Python and R programming languages (and julia recently) for scientific computing, that aims to simplify package management and deployment. The distribution includes data-science packages suitable for Windows, Linux, and macOS.
+A questo punto, puoi lanciare tutti i comandi che vuoi. Tipo:
 
-Simply saying, after installation of Anaconda you will get Python and 95% of the most used libraries ready to use. Installation of Anaconda is a pretty simple process, which is described precisely in the documentation.
-
-[Download](https://www.anaconda.com/products/individual) || [Installation guides (macOS, Windows, Linux)](https://docs.anaconda.com/anaconda/install/)
-
-If you have never worked with Python, I would suggest starting with [JupyterLab](https://jupyter.org/) environment. If you have installed Anaconda, you don't need any additional installations. Here is a nice video tutorial: [Jupyter Notebook Tutorial: Introduction, Setup, and Walkthrough](https://www.youtube.com/watch?v=HW29067qVWk)
-
-<center><img src="https://jupyterlab.readthedocs.io/en/stable/_images/jupyterlab.png" width="600"></img></center>
-
-[JupyterLab documentation](https://jupyterlab.readthedocs.io/en/stable/)
-
-<br>
-Do I necessarily have to install Python for this course?
-
-<choice id="1">
-<opt text="Yes">
-You *don't have to*, but you might benefit more from the course if you go beyond the exercises in the course and apply gained knowledge on your own problems.
-</opt>
-
-<opt text="No" correct="true">
-You have Python interpreter built on Binder directly on the website, so you can do all the coding here.
-</opt>
-</choice>
+<center><img src="imgs/0.3-python_attivation_command.png" width="300"></img></center>
 
 </exercise>
 
