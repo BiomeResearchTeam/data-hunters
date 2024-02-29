@@ -1,7 +1,7 @@
 ---
-title: 'Chapter 1: Python Basics'
+title: 'Chapter 1: PYTHON - BASICS'
 description:
-  'In this chapter, we are going to learn how to define variables in Python and what are the main data types.'
+  'In questo capitolo tratteremo le basi di Python'
 prev: /chapter0
 next: /chapter2
 type: chapter
