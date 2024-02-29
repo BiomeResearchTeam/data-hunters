@@ -16,7 +16,7 @@ Qui puoi trovare tutte le informazioni necessarie per affrontare le sfide del wo
 
 Ma partiamo dal principio...
 
-<center><img src="static/imgs/0.1-dinos.png" width="300"></img></center>
+<center><img src="data-hunters/static/imgs/0.1-dinos.png" width="300"></img></center>
 
 JK Python non c'entra nulla, siamo solo fan dei dinosauri
 
