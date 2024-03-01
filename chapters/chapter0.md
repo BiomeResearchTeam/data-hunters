@@ -1,59 +1,96 @@
 ---
-title: 'Chapter 0: PYTHON - INTRODUCTION'
+title: "Chapter 0: WORKSHOP'S FUNDAMENTALS'"
 description:
-  "Partiamo dal principio"
+  "In questo capitolo tratteremo tutti i comandi necessari per svolgere gli step del workshop"
 prev: null
 next: /chapter1
 type: chapter
 id: 0
 ---
 
-<exercise id="1" title="Introduction">
+<exercise id="1" title="PANDAS" type="slides">
 
-Ciao Data Hunter!
-
-Qui puoi trovare tutte le informazioni necessarie per affrontare le sfide del workshop, oltre a una vasta gamma di altri dettagli e risorse.
-
-Ma partiamo dal principio...
-
-<center><img src="data-hunters/static/imgs/0.1-dinos.png" width="300"></img></center>
-
-JK Python non c'entra nulla, siamo solo fan dei dinosauri
+<slides source="chapter0_01_pandas">
+</slides>
 
 </exercise>
 
-<exercise id="2" title="Python download">
 
-Se vuoi installare Python sul tuo computer, vai sul [sito ufficiale di Python](https://www.python.org/downloads/) nella sezione "Download" e scarica l'ultima versione facendo attenzione a selezionare correttamente il tuo sistema operativo. 
+<exercise id="1" title="DATAFRAME" type="slides">
 
-<center><img src="static/imgs/0.2-python_download.png" width="300"></img></center>
-
-Una volta scaricato l'installer, avvialo e procedi con l'installazione.
-Sì esatto, è proprio così semplice!
-
-⚠️ Attenzione: per partecipare al workshop, **non è necessario** scaricare Python sul proprio computer!
+<slides source="chapter1_01_introduction">
+</slides>
 
 </exercise>
 
-<exercise id="3" title="Python launch">
 
-Per attivare Python, apri il terminale e lancia il comando `python`.
-Se l'installazione di Python è stata eseguita con successo, dovresti visualizzare qualcosa simile a questo:
+<exercise id="1" title="ESTRAZIONE COLONNA" type="slides">
 
-<center><img src="imgs/0.3-python_attivation.png" width="300"></img></center>
-
-A questo punto, puoi lanciare tutti i comandi che vuoi. Tipo:
-
-<center><img src="imgs/0.3-python_attivation_command.png" width="300"></img></center>
+<slides source="chapter1_01_introduction">
+</slides>
 
 </exercise>
 
-<exercise id="5" title="Python exit">
 
-Okay, hai completato tutte le tue attività in Python e ora vuoi uscire. 
-Per uscire da Python, puoi usare diversi comandi: 
-* `exit()`
-* `quit()`
-* ctrl+D
+<exercise id="1" title="unique/lower/columns" type="slides">
+
+<slides source="chapter1_01_introduction">
+</slides>
+
+</exercise>
+
+
+<exercise id="1" title="IF" type="slides">
+
+<slides source="chapter1_01_introduction">
+</slides>
+
+</exercise>
+
+
+<exercise id="1" title="FOR" type="slides">
+
+<slides source="chapter1_01_introduction">
+</slides>
+
+</exercise>
+
+
+<exercise id="1" title="to_list/LISTA" type="slides">
+
+<slides source="chapter1_01_introduction">
+</slides>
+
+</exercise>
+
+
+<exercise id="1" title="lista-vuota/append" type="slides">
+
+<slides source="chapter1_01_introduction">
+</slides>
+
+</exercise>
+
+
+<exercise id="1" title="CREARE UNA NUOVA COLONNA" type="slides">
+
+<slides source="chapter1_01_introduction">
+</slides>
+
+</exercise>
+
+
+<exercise id="1" title="to_csv" type="slides">
+
+<slides source="chapter1_01_introduction">
+</slides>
+
+</exercise>
+
+
+<exercise id="1" title="CARICARE SU DATABASE" type="slides">
+
+<slides source="chapter1_01_introduction">
+</slides>
 
 </exercise>

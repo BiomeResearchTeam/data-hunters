@@ -1,7 +1,7 @@
 ---
-title: 'Chapter 1: PYTHON - BASICS'
+title: 'Chapter 1: PYTHON - 
 description:
-  'In questo capitolo tratteremo le basi di Python'
+  '...'
 prev: /chapter0
 next: /chapter2
 type: chapter
