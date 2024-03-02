@@ -16,7 +16,22 @@ id: 0
 </exercise>
 
 
-<exercise id="1" title="DATAFRAME" type="slides">
+<exercise id="2" title="DATAFRAME" type="slides">
+
+<slides source="chapter0_02_dataframe">
+</slides>
+
+<codeblock id="01_02">
+
+* Ti sei ricordato di importare Pandas prima di utilizzare una sua funzione?
+* Ricorda di 
+
+</codeblock>
+
+</exercise>
+
+
+<exercise id="3" title="ESTRAZIONE COLONNA" type="slides">
 
 <slides source="chapter1_01_introduction">
 </slides>
@@ -24,7 +39,7 @@ id: 0
 </exercise>
 
 
-<exercise id="1" title="ESTRAZIONE COLONNA" type="slides">
+<exercise id="4" title="unique/lower/columns" type="slides">
 
 <slides source="chapter1_01_introduction">
 </slides>
@@ -32,7 +47,7 @@ id: 0
 </exercise>
 
 
-<exercise id="1" title="unique/lower/columns" type="slides">
+<exercise id="5" title="IF" type="slides">
 
 <slides source="chapter1_01_introduction">
 </slides>
@@ -40,7 +55,7 @@ id: 0
 </exercise>
 
 
-<exercise id="1" title="IF" type="slides">
+<exercise id="6" title="FOR" type="slides">
 
 <slides source="chapter1_01_introduction">
 </slides>
@@ -48,7 +63,7 @@ id: 0
 </exercise>
 
 
-<exercise id="1" title="FOR" type="slides">
+<exercise id="7" title="to_list/LISTA" type="slides">
 
 <slides source="chapter1_01_introduction">
 </slides>
@@ -56,7 +71,7 @@ id: 0
 </exercise>
 
 
-<exercise id="1" title="to_list/LISTA" type="slides">
+<exercise id="8" title="lista-vuota/append" type="slides">
 
 <slides source="chapter1_01_introduction">
 </slides>
@@ -64,7 +79,7 @@ id: 0
 </exercise>
 
 
-<exercise id="1" title="lista-vuota/append" type="slides">
+<exercise id="9" title="CREARE UNA NUOVA COLONNA" type="slides">
 
 <slides source="chapter1_01_introduction">
 </slides>
@@ -72,7 +87,7 @@ id: 0
 </exercise>
 
 
-<exercise id="1" title="CREARE UNA NUOVA COLONNA" type="slides">
+<exercise id="10" title="to_csv" type="slides">
 
 <slides source="chapter1_01_introduction">
 </slides>
@@ -80,15 +95,7 @@ id: 0
 </exercise>
 
 
-<exercise id="1" title="to_csv" type="slides">
-
-<slides source="chapter1_01_introduction">
-</slides>
-
-</exercise>
-
-
-<exercise id="1" title="CARICARE SU DATABASE" type="slides">
+<exercise id="11" title="CARICARE SU DATABASE" type="slides">
 
 <slides source="chapter1_01_introduction">
 </slides>

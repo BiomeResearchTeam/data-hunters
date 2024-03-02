@@ -35,6 +35,7 @@ Notes: Python dispone della cosiddetta Python Standard Library che includde una 
 Credits: https://realpython.com/pandas-dataframe/
 
 Notes: Per questo workshop la libreria che utilizzeremo è **Pandas**. Pandas è una libreria open-sorce, facile e flessibile, ampiamente utilizzata dai data scientist per la manipolazione e l'analisi dei dati. 
+[Website](https://pandas.pydata.org/) || [Documentation](https://pandas.pydata.org/pandas-docs/)
 
 Per utilizzare una qualisasi libreria, e quindi anche Pandas, è necessario richiamarla prima del suo utilizzo, garantendo così la sua disponibilità nel nostro ambiente di lavoro. 
 In particolare, si fa così: `import pandas`. 
