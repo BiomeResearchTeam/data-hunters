@@ -21,7 +21,16 @@ id: 0
 <slides source="chapter0_02_dataframe">
 </slides>
 
-<codeblock id="01_02">
+</exercise>
+
+
+<exercise id="3" title="HANDS ON DATAFRAME" type="slides">
+
+È tempo di mettere le mani in pasta, cioè in Python!
+
+POV: sei un partecipante del workshop Data Hunters e vuoi curare i metadati del progetto ERP131433. Il primo passaggio che devi fare è leggere il file ERP131433_df.tsv come dataframe. Provaci!
+
+<codeblock id="01_01">
 
 * Ti sei ricordato di importare Pandas prima di utilizzare una sua funzione?
 * Ricorda di indicare il nome del file e il separatore!
