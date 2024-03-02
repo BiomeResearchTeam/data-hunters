@@ -24,7 +24,7 @@ id: 0
 <codeblock id="01_02">
 
 * Ti sei ricordato di importare Pandas prima di utilizzare una sua funzione?
-* Ricorda di 
+* Ricorda di indicare il nome del file e il separatore!
 
 </codeblock>
 
