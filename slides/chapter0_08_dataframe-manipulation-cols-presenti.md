@@ -11,7 +11,7 @@ OK, passiamo al cuore dell'attività del workshop: avete trovato le informazioni
 * "instrument_model": modello di sequenziatore (ILLUMINA MiSeq, ILLUMINA NovaSeq, ...)
 * "SKIOME_amplicon_target": amplicone targettato (16S, ITS, ...)
 * "SKIOME_target_region": regione ipervariabile dell amplicone (V1, V3-V4, ...)
-* "SKIOME_primer": primer (GTGCCAGCMGCCGCGGTAA, GGACTACNVGGGTWTCTAAT, ...)
+* "SKIOME_primer": primer (515: GTGCCAGCMGCCGCGGTAA, 805: GGACTACNVGGGTWTCTAAT, ...)
 * "SKIOME_individuals_nationality": nazionalità degli individui campionati (Italy, Spain, ...)
 * "SKIOME_body_site": sito del corpo campionato (hands, forehead, ...)
 * "SKIOME_status": condizione o stato che si attribuisce ai soggetti campionati in base alle diverse ipotesi considerate (healthy vs disease, rural vs urban, ...)

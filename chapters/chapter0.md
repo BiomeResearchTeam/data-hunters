@@ -134,57 +134,33 @@ mascarpone
 </exercise>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<exercise id="5" title="IF" type="slides">
-
-<slides source="chapter1_01_introduction">
+<exercise id="15" title="DATAFRAME MANIPULATION" type="slides">
+<slides source="chapter0_15_dataframe-manipulation-cols-non-presenti">
 </slides>
-
 </exercise>
 
 
-<exercise id="6" title="FOR" type="slides">
+<exercise id="16" title="HANDS ON DATAFRAME">
+Vedo già il traguardo, siamo alle battute finali!
 
-<slides source="chapter1_01_introduction">
-</slides>
+POV: sei un partecipante del workshop Data Hunters e vuoi curare i metadati del progetto ERP131433. Nel primo esercizio, verifica la correttezza del valore contenuto nella colonna onnipresente. Nel secondo esercizio,verifica la presenza di una delle 7 colonne non sempre presenti, ed eventualmente la correttezza dell'informazione contenuta!
 
+<codeblock id="00_16">
+
+* Sembra che il valore contenuto nella colonna sia sbagliato... crea una nuova colonna curata!
+</codeblock>
+
+<codeblock id="00_17">
+
+* ....
+</codeblock>
 </exercise>
 
 
-<exercise id="7" title="to_list/LISTA" type="slides">
-
-<slides source="chapter1_01_introduction">
-</slides>
-
-</exercise>
 
 
-<exercise id="8" title="lista-vuota/append" type="slides">
-
-<slides source="chapter1_01_introduction">
-</slides>
-
-</exercise>
 
 
-<exercise id="9" title="CREARE UNA NUOVA COLONNA" type="slides">
-
-<slides source="chapter1_01_introduction">
-</slides>
-
-</exercise>
 
 
 <exercise id="10" title="to_csv" type="slides">

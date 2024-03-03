@@ -5,7 +5,6 @@ def test():
     # in the meta.json for details.
 
     # If an assertion fails, the message will be displayed
-    assert type(nucleotides) == dict, "Are you sure it's a dictionary?"
-    assert sum(nucleotides.values()) == len(DNA), "Did you include all the nucleotides?"
+    assert "Illumina MiSeq" in df["SKIOME_instrument_model"], "hai creato la nuova colonna?"
 
     __msg__.good("Well done!")
