@@ -5,6 +5,6 @@ def test():
     # in the meta.json for details.
 
     # If an assertion fails, the message will be displayed
-    assert round(mass, 2) == 8.11, "Are you printing the first record?"
+    assert set(colonna_doi_unici) == set(df["DOI"]), "I valori unici della colonna 'DOI' non corrispondono ai valori effettivi."
 
     __msg__.good("Well done!")
