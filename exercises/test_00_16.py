@@ -5,6 +5,6 @@ def test():
     # in the meta.json for details.
 
     # If an assertion fails, the message will be displayed
-    assert "Illumina MiSeq" in df["SKIOME_instrument_model"], "hai creato la nuova colonna?"
+    assert df["SKIOME_instrument_model"].unique() == "Illumina MiSeq", "hai creato la nuova colonna?"
 
     __msg__.good("Well done!")

@@ -5,8 +5,6 @@ def test():
     # in the meta.json for details.
 
     # If an assertion fails, the message will be displayed
-    assert counts['Word Characters'] == 8, "Something is wrong with the Word Characters count"
-    assert counts['Digits'] == 3, "Something is wrong with the Digits count"
-    assert counts['Symbols'] == 4, "Something is wrong with the Symbols count"
+    assert df["SKIOME_individuals_nationality"].unique() == "Italy", "hai creato la colonna nuova?"
 
     __msg__.good("Well done!")

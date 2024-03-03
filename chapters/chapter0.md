@@ -152,7 +152,10 @@ POV: sei un partecipante del workshop Data Hunters e vuoi curare i metadati del 
 
 <codeblock id="00_17">
 
-* ....
+* Crea una lista delle colonne dei metadati
+* Crea una lista vuota per contenere il nome delle colonne che contengono "Italy"
+* Se è stata trovata almeno una colonna che contiene "Italy" allora stampa il nome di questa colonna e i suoi valori unici, altrimenti stampa la frase "nessuna colonna trovata!"
+* Crea la nuova colonna specifica per la nazionalità degli individui campionati
 </codeblock>
 </exercise>
 
