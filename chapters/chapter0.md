@@ -77,53 +77,32 @@ POV: sei un partecipante del workshop Data Hunters e vuoi curare i metadati del 
 
 
 <exercise id="8" title="DATAFRAME MANIPULATION" type="slides">
-<slides source="chapter0_08_dataframe-manipulation-check-info">
+<slides source="chapter0_08_dataframe-manipulation-cols-presenti">
 </slides>
 </exercise>
 
 
 <exercise id="9" title="HANDS ON DATAFRAME">
-Dai, è la tua opportunità di testare tutto quello che hai imparato!
+Eccoci: è la tua opportunità di testare tutto quello che hai imparato!
 
 POV: sei un partecipante del workshop Data Hunters e vuoi curare i metadati del progetto ERP131433. Estrai il valore unico della colonna "library_strategy" e crea una nuova colonna con il valore corretto.
 <codeblock id="00_09">
 
-* ...
+* Ti ricordi come creare una nuova colonna? Dai è simile a estrarre una colonna esistente!
 </codeblock>
-```out
-...
-```
-
-```out
-...
-```
 </exercise>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<exercise id="4" title="unique/lower/columns" type="slides">
-
-<slides source="chapter1_01_introduction">
+<exercise id="10" title="DATAFRAME MANIPULATION" type="slides">
+<slides source="chapter0_10_dataframe-manipulation-cols-non-presenti">
 </slides>
-
 </exercise>
+
+
+
+
+
+
 
 
 <exercise id="5" title="IF" type="slides">
