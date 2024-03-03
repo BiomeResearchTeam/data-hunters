@@ -28,7 +28,7 @@ id: 0
 
 È tempo di mettere le mani in pasta, cioè in Python!
 
-POV: sei un partecipante del workshop Data Hunters e vuoi curare i metadati del progetto ERP131433. Il primo passaggio che devi fare è leggere il file ERP131433_df.tsv come dataframe. Provaci!
+POV: sei un partecipante del workshop Data Hunters e vuoi curare i metadati del progetto ERP131433. Il primo passaggio che devi fare è leggere il file ERP131433_df.tsv come DataFrame. Provaci!
 
 <codeblock id="01_01">
 
@@ -42,7 +42,7 @@ POV: sei un partecipante del workshop Data Hunters e vuoi curare i metadati del 
 
 <exercise id="3" title="ESTRAZIONE COLONNA" type="slides">
 
-<slides source="chapter1_01_introduction">
+<slides source="chapter0_03_dataframe-manipulation">
 </slides>
 
 </exercise>

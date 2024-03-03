@@ -2,9 +2,19 @@
 type: slides
 ---
 
-# Comparing objects
+# Let's start manipulate the Dataframe!
 
-Notes: Now that you know how to create new variables, you can compare them. This opens a lot of possibilities for further data manipulation!
+Riprendiamo da dove eravamo rimasti:
+
+```python
+print(df)
+```
+
+<center><img src="imgs/1.1-print_df.png"></center>
+
+Notes: Ora che hai creato un DataFrame chiamato df, hai la possibilità di richiamarlo quante volte desideri. Tuttavia, quando il DataFrame contiene molte colonne o righe, potrebbe essere complicato esplorarne il contenuto tramite una semplice stampa. Nel nostro caso, con un numero elevato di colonne, vengono mostrate tutt le righe perché il nostro df ha effettivamente solo 6 righe, e solo alcune delle molte colonne del df per rendere più gestibile la visualizzazione.
+
+Nella stampa del DataFrame, puoi notare una barra inversa `\` che indica che le righe stanno continuando a capo nella visualizzazione del print, ma nella realtà dei dati non ci sono interruzioni. Inoltre, puoi vedere dei puntini di sospensione `...`, che indicano che molte colonne sono omesse dalla visualizzazione.
 
 ---
 

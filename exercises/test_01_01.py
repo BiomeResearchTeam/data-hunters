@@ -5,6 +5,7 @@ def test():
     # in the meta.json for details.
 
     # If an assertion fails, the message will be displayed
-    assert "world" in __solution__.lower(), "Are you saying hello to the world or someone else?"
+    assert isinstance(df, pd.DataFrame), "Il DataFrame non è stato creato correttamente."
+
 
     __msg__.good("Well done!")
