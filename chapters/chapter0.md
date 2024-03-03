@@ -99,6 +99,30 @@ POV: sei un partecipante del workshop Data Hunters e vuoi curare i metadati del 
 </exercise>
 
 
+<exercise id="11" title="HANDS ON DATAFRAME">
+Bene, mettiamo in pratica il for e l'if. Esercitiamoci un po' su questi due concetti prima di ritornare a curare i nostri metadati.
+
+<codeblock id="00_11">
+
+* Con il ciclo for, ogni elemento di una lista viene preso uno alla volta...
+</codeblock>
+
+<codeblock id="00_12">
+
+* Con l'istruzione if, se la condizione è vera si esegue il blocco di comandi dopo l'if, altrimenti il blocco di comandi dopo l'else
+</codeblock>
+</exercise>
+
+
+
+
+
+
+
+
+
+
+
 
 
 

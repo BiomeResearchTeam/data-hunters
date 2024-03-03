@@ -5,6 +5,6 @@ def test():
     # in the meta.json for details.
 
     # If an assertion fails, the message will be displayed
-    assert RNA == "GAUGGAACUUGACUACGUAAAUU", "Didn't you forgot to change the case?"
+    assert __solution__ = No, non ci sono
 
     __msg__.good("Well done!")

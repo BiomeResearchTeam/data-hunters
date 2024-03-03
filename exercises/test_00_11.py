@@ -5,9 +5,8 @@ def test():
     # in the meta.json for details.
 
     # If an assertion fails, the message will be displayed
-    assert condition == False, "Did you consider all the conditions?"
-    assert "group == " in __solution__, "Did you consider the group condition?"
-    assert "BMI >= 15" in __solution__, "Did you consider the BMI criteria?"
-    assert "age > 40" in __solution__, "Did you consider the age criteria?"
+    lista_spesa = ["savoiardi", "mascarpone", "caffè", "cacao"]
+    risultato_effettivo = [ingrediente for ingrediente in lista_spesa]
+    assert risultato_effettivo == lista_spesa, "Il ciclo for non produce l'output atteso."
 
     __msg__.good("Well done!")
