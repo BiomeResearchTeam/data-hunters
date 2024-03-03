@@ -5,8 +5,6 @@ def test():
     # in the meta.json for details.
 
     # If an assertion fails, the message will be displayed
-    assert condition == False, "Did you consider the group condition?"
-    assert "group == " in __solution__, "Did you consider the group condition?"
-    assert "BMI >= 15" in __solution__, "Did you consider the BMI criteria?"
+    assert df["SKIOME_library_strategy"].unique() == ["AMPLICON"], "Il valore della nuova colonna non è corretto."
 
     __msg__.good("Well done!")

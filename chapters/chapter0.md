@@ -82,6 +82,42 @@ POV: sei un partecipante del workshop Data Hunters e vuoi curare i metadati del 
 </exercise>
 
 
+<exercise id="9" title="HANDS ON DATAFRAME">
+Dai, è la tua opportunità di testare tutto quello che hai imparato!
+
+POV: sei un partecipante del workshop Data Hunters e vuoi curare i metadati del progetto ERP131433. Estrai il valore unico della colonna "library_strategy" e crea una nuova colonna con il valore corretto.
+<codeblock id="00_09">
+
+* ...
+</codeblock>
+```out
+...
+```
+
+```out
+...
+```
+</exercise>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <exercise id="4" title="unique/lower/columns" type="slides">
 
 <slides source="chapter1_01_introduction">
