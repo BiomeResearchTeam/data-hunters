@@ -5,6 +5,11 @@ def test():
     # in the meta.json for details.
 
     # If an assertion fails, the message will be displayed
-    assert is_palindrome == True, "Didn't you forget to change the case?"
+    for ingrediente in lista_spesa:
+        if ingrediente.lower() == "mascarpone":
+            mascarpone_presente = True
+
+    assert mascarpone_presente, "Il mascarpone non è presente nella lista della spesa."
+
 
     __msg__.good("Well done!")

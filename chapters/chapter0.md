@@ -114,6 +114,24 @@ Bene, mettiamo in pratica il for e l'if. Esercitiamoci un po' su questi due conc
 </exercise>
 
 
+<exercise id="13" title="HANDS ON DATAFRAME">
+A questo punto aggiungiamo i nuovi metodi imparati (.lower() e .append()) al for e all'if, prima di ritornare a curare i nostri metadati.
+
+<codeblock id="00_13">
+
+* Itera i diversi ingredienti della lista_spesa e verifica se l'ingrediente è uguale a "mascarpone". Come sarà scritto mascarpone nella tua lista? Rendi ogni ingrediente minuscolo!
+</codeblock>
+
+<codeblock id="00_14">
+
+* Crea una lista vuota a cui appendere l'ingrediente mascarpone, qualora fosse presente nella lista_spesa!
+</codeblock>
+
+```out
+mascarpone
+```
+
+</exercise>
 
 
 

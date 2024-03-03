@@ -5,7 +5,6 @@ def test():
     # in the meta.json for details.
 
     # If an assertion fails, the message will be displayed
-    assert type(good_trials) == list, "Didn't you forget to convert to list?"
-    assert len(good_trials) == 7, "Didn't you forget to filter out bad trials?"
+    assert len(lista_mascarpone) == 1, "dov'è finito il mascarpone?"
 
     __msg__.good("Well done!")
