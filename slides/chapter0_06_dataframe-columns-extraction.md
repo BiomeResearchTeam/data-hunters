@@ -2,7 +2,7 @@
 type: slides
 ---
 
-# Making use of strings
+# Let'ss manipulate the Dataframe!
 
 Notes: Strings are another awesome built-in data type. It's very likely that some of the variables you will be working with in a future will be in a `str` format, so it's important to understand how to deal with them.
 

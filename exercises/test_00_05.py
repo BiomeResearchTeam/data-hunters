@@ -5,6 +5,6 @@ def test():
     # in the meta.json for details.
 
     # If an assertion fails, the message will be displayed
-    assert y == 2.0, "Did you forget to take a square root?"
+    assert isinstance(lista_colonne, list), "lista_colonne non è una lista!"
 
     __msg__.good("Well done!")
