@@ -2,67 +2,74 @@
 type: slides
 ---
 
-# Collecting objects together
+# Let's manipulate the Dataframe: column extraction & check info
 
-Notes: So far you have seen how to work with variables that hold a single object (like `age = 20` or `DNA = "ATGC"`). But wouldn't it be great if you could store multiple objects in one variable (for example, variable with all participants' age)?
+OK, passiamo al cuore dell'attività del workshop: avete trovato le informazioni nel paper e ora volete curare i metadati di quel progetto. Le colonne che dovrete curare per ogni progetto sono 9:
 
-There are 4 commonly used collection types in Python that you will see in the next slides:
+* "library_strategy": la strategia di sequenziamento (AMPLICON, WGS)
+* "instrument_platform": la piattaforma di sequenziamento (ILLUMINA, ION TORRENT, ...)
+* "instrument_model": modello di sequenziatore (ILLUMINA MiSeq, ILLUMINA NovaSeq, ...)
+* "SKIOME_amplicon_target": amplicone targettato (16S, ITS, ...)
+* "SKIOME_target_region": regione ipervariabile dell amplicone (V1, V3-V4, ...)
+* "SKIOME_primer": primer (GTGCCAGCMGCCGCGGTAA, GGACTACNVGGGTWTCTAAT, ...)
+* "SKIOME_individuals_nationality": nazionalità degli individui campionati (Italy, Spain, ...)
+* "SKIOME_body_site": sito del corpo campionato (hands, forehead, ...)
+* "SKIOME_status": condizione o stato che si attribuisce ai soggetti campionati in base alle diverse ipotesi considerate (healthy vs disease, rural vs urban, ...)
 
-* Lists
-* Tuples
-* Sets
-* Dictionaries
+Notes: Le prime 3 colonne ("library_strategy", "instrument_platform", "instrument_model") sono **sempre** presenti nei metadati che andrete a curare, mentre le altre 7 potrebbero essere presenti o meno. Di conseguenza, ci sono due strade che dovrete percorrere:
+
+* Per le **COLONNE SEMPRE PRESENTI** ("library_strategy", "instrument_platform", "instrument_model") dovrete verificare che i valori contenuti in queste colonne coincidano con quelli trovati nel paper. Se corrispono, ottimo! non dovete fare nulla e potete passare alla prossima colonna. Se, invece, i valori nelle colonne sono diversi da quelli che avete trovato nel paper allora dovete modificarli.
+
+* Per le **COLONNE POTENZIALMENTE ASSENTI** dovete innanzitutto verificare se la colonna esiste:
+    * Se **ESISTE**, comportatevi come nel caso delle colonne sempre presenti: controllate che il valore contenuto sia lo stesso di quello nel paper. Se i valori coincidono, non è necessario apportare modifiche e potete passare alla prossima colonna. Se i valori sono diversi, dovrete procedere con la correzione.
+    * Se **NON ESISTE** allora è necessario crearne una nuova e assegnarle il valore trovato nel paper.
+              
+---
+
+# Let's manipulate the Dataframe: COLONNE SEMPRE PRESENTI
+
+Verifichiamo che il valore delle tre colonne sempre presenti sia quello che hai trovato nel paper! Partiamo dalla colonna `library_strategy` e poi ripetiamo gli stessi comandi per tutte e 3 le colonne sempre presenti.
+
+```python
+strategia = df["library_strategy"].unique()
+print(strategia)
+```
+
+```out
+['AMPLICON']
+```
+
+Notes: Per verificare che il valore presente nella colonna da curare sempre presente sia lo stesso trovato nel paper, basta sfruttare quello che hai imparato finora! Quindi abbiamo estratto il valore unico dalla colonna `library_strategy` e l'abbiamo stampato. TA-DAAN: `AMPLICON`. Il valore trovato è corrisponde con quello che abbiamo letto nel paper e quindi possiamo procedere con un'altra colonna.
 
 ---
 
-# Lists
+# Let's manipulate the Dataframe: COLONNE SEMPRE PRESENTI
 
-List is a collection which is ordered and changeable. Allows duplicate members.
+Verifichiamo ora il valore contenuto dalla colonna `instrument_platform`!
 
 ```python
-age = [15, 25, 45, 16, 18, 20, 25]
-print(type(age))
+piattaforma = df["instrument_platform"].unique()
+print(piattaforma)
 ```
 
 ```out
-list
+["VALORE SBAGLIATO"]
 ```
 
 ```python
-age[:5])   # returns [15, 25, 45, 16, 18]
-age[3:7])  # returns [16, 18, 20, 25]
-age[::-1]  # returns [25, 20, 18, 16, 45, 25, 15]
-age[-2]    # returns 20
-print(age) # object stayed unchanged
+df["SKIOME_instrument_platform"] = "AMPLICON"
 ```
 
 ```out
-[15, 25, 45, 16, 18, 20, 25]
+["AMPLICON"]
 ```
 
-Notes: Remember the slicing we did for the strings? Exactly the same idea applies to the lists. And no matter what type of slicing you do, as long as you don't rewrite your variable, it will stay unchanged.
+Notes: Supponiamo che, durante la verifica di questa colonna, abbiamo riscontrato un valore diverso da quello dichiarato nel paper. Niente di più semplice: dobbiamo creare una nuova colonna contenente il valore corretto. Per fare ciò, dobbiamo specificare il nome del DataFrame (`df`) seguito dalle parentesi quadre (`[]`), all'interno delle quali indichiamo il nome della nuova colonna. Quando crei una nuova colonna, segui il nome suggerito nella lista iniziale delle colonne da curare. Nota che, se stai curando quella particolare colonna, devi aggiungere come prefisso "SKIOME_". Questo aiuterà chi utilizzerà la raccolta a capire che la colonna è stata curata!
 
----
 
-# Basic operations with lists
+# Let's manipulate the Dataframe: COLONNE SEMPRE PRESENTI
 
-```python
-age = [15, 25, 45, 16, 18, 20, 25]
-
-len(age) # returns 7
-min(age) # returns 15
-max(age) # returns 45
-sum(age) # returns 164
-
-avg_age = sum(age) / len(age)
-print(round(avg_age,2))
-```
-
-```out
-23.43
-```
-
-**Lists can hold objects of different types**:
+Non c'è regola se non ci sono eccezioni... Può capitare che non esista una delle tre colonne che ti abbiamo detto essere sempre presenti! E allora che fare? Semplice, crea una nuova colonna e assegna il valore che hai trivato nel paper:
 
 ```python
 i_am_valid_list = [1, "Hello", [1,2,False], True-0, 42<3.14]
