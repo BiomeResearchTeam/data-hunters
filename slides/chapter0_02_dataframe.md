@@ -19,7 +19,7 @@ Per prima cosa dobbiamo leggere il file di metadati come un DataFrame:
 ```python
 import pandas as pd
 
-df = pd.read_csv("ERP020892.tsv", sep="\t")
+df = pd.read_csv("ERP020892_df.tsv", sep="\t")
 print(df)
 ```
 

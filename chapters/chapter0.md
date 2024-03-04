@@ -141,7 +141,7 @@ mascarpone
 
 
 <exercise id="16" title="HANDS ON DATAFRAME">
-Vedo già il traguardo, siamo alle battute finali!
+Daje, dopo questo step è tutta in discesa!
 
 POV: sei un partecipante del workshop Data Hunters e vuoi curare i metadati del progetto ERP131433. Nel primo esercizio, verifica la correttezza del valore contenuto nella colonna onnipresente. Nel secondo esercizio,verifica la presenza di una delle 7 colonne non sempre presenti, ed eventualmente la correttezza dell'informazione contenuta!
 
@@ -160,23 +160,19 @@ POV: sei un partecipante del workshop Data Hunters e vuoi curare i metadati del 
 </exercise>
 
 
-
-
-
-
-
-
-<exercise id="10" title="to_csv" type="slides">
-
-<slides source="chapter1_01_introduction">
+<exercise id="18" title="SAVE DF" type="slides">
+<slides source="chapter0_18_saving-df">
 </slides>
-
 </exercise>
 
 
-<exercise id="11" title="CARICARE SU DATABASE" type="slides">
+<exercise id="16" title="HANDS ON DATAFRAME">
+Vedo già il traguardo, siamo alle battute finali!
 
-<slides source="chapter1_01_introduction">
-</slides>
+POV: sei un partecipante del workshop Data Hunters e vuoi curare i metadati del progetto ERP131433. Hai finito di curare questo progetto! Non ti resta che salvare il file come SKIOME_ERP131433_df.tsv
 
+<codeblock id="00_19">
+
+* Messi tutti gli argomenti? Nome del nuovo file, separatore, e l'opzione per non salvare gli indici...
+</codeblock>
 </exercise>

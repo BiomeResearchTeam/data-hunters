@@ -5,7 +5,6 @@ def test():
     # in the meta.json for details.
 
     # If an assertion fails, the message will be displayed
-    assert len(max_ids) == 3, "Does your list have 3 participants?"
-    assert sorted(max_ids) == ['id2', 'id7', 'id9'], "Participants IDs don't match with the solution."
+    assert os.path.exists("SKIOME_ERP131433_df.tsv"), "Il file non è stato creato correttamente"
 
     __msg__.good("Well done!")
