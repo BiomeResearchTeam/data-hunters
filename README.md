@@ -1,15 +1,14 @@
-# Source code for "Python for Neuroscience" course
+# Source code for the Data Hunters Workshop 
 
-<center><img src="static/logo.svg"></img></center>
+<center><img src="static/logo.png"></img></center>
 
-[**Go to the Course Website**](https://www.pyforneuro.com/)
+This online resource was provided to participants of the Data Hunters workshop as a guide to learn the fundamentals of Python, essential for overcoming the challenges presented in the workshop. By acquiring theoretical knowledge and applying it through exercises, participants were able to practice in preparation for the workshop activities.
+
+This resource draws inspiration from [Ruslan Klymentiev](https://github.com/rklymentiev/py-for-neuro) and from the template of [website template](https://github.com/ines/course-starter-python).
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1090c1da-0875-4da2-b300-d61460a2f3b9/deploy-status)](https://app.netlify.com/sites/pyforneuro/deploys)
 
-Website was built using the template: [course-starter-python](https://github.com/ines/course-starter-python).
 
-#### About the course:
-
-This free and interactive course is designed to guide you through the basics of Python programming. Course covers most of the topics to get you started, including the basics of programming, working with packages like NumPy or Pandas for data manipulation, making human readable plots and working with data in different formats.
-
-If you spotted an error/typo, you can report an [issue](https://github.com/rklymentiev/py-for-neuro/issues) or create a [pull request](https://github.com/rklymentiev/py-for-neuro/pulls). Also feel free to add suggestions/feedback in [discussions](https://github.com/rklymentiev/py-for-neuro/discussions).
+## Contact
+* Name: Sara Fumagalli
+* email: sara.fumagalli@unimib.it
